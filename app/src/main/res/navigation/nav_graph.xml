@@ -24,8 +24,22 @@
         android:label="fragment_repository_detail"
         tools:layout="@layout/fragment_repository_detail" >
         <argument
-            android:name="RepositoryID"
-            app:argType="string"
-            app:nullable="true" />
+            android:name="name"
+            app:argType="string" />
+        <argument
+            android:name="lastName"
+            app:argType="string" />
+        <argument
+            android:name="birth"
+            app:argType="string" />
+        <argument
+            android:name="pic"
+            app:argType="string" />
+        <argument
+            android:name="age"
+            app:argType="integer" />
+        <argument
+            android:name="country"
+            app:argType="string" />
     </fragment>
 </navigation>
